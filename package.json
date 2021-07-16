@@ -1,0 +1,20 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "Crawl the given url for title, description, keywords, images with alt. Uses DFS to search recursively.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node-crawler",
+    "crawler",
+    "crawl"
+  ],
+  "author": "Tharunraj Optimus",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.1"
+  }
+}
